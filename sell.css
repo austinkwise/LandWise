@@ -6,6 +6,10 @@ li {
     list-style: none;
 }
 
+#logo {
+    max-width: 1.75em;
+}
+
 .btn{
     background-color: #e74c3c;
     border: none;
@@ -19,3 +23,6 @@ li {
     background-color: #e6e6e6;
 }
 
+.processIcons {
+    width: 10rem;
+}
