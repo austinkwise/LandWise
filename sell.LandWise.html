@@ -91,7 +91,7 @@
                     <section class="container-fluid px-0 text-center">
 
                         <div class="row">
-                            <div class="col-md-6 text-left">
+                            <div class="col-md-6 text-left border-bottom">
                                 <div class="font-weight-bold">
                                     <i class="fa fa-check-square-o iconRed"></i>
                                     All Cash Offer
@@ -101,7 +101,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-6 text-right">
+                            <div class="col-md-6 text-right border-bottom">
                                 <div class="font-weight-bold">
                                     <i class="fa fa-check-square-o iconRed"></i>
                                     NO Commissions
@@ -112,7 +112,7 @@
                         </div>
 
                         <div class="row">
-                            <div class="col-md-6 text-left">
+                            <div class="col-md-6 text-left border-bottom">
                                 <div class="font-weight-bold">
                                     <i class="fa fa-check-square-o iconRed"></i>
                                     Fast Closing
@@ -122,7 +122,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-6 text-right">
+                            <div class="col-md-6 text-right border-bottom">
                                 <div class="font-weight-bold">
                                     <i class="fa fa-check-square-o iconRed"></i>
                                     NO Closing Costs
@@ -134,7 +134,7 @@
                         </div>
                         
                         <div class="row">
-                            <div class="col-md-6 text-left">
+                            <div class="col-md-6 text-left border-bottom">
                                 <div class="font-weight-bold">
                                     <i class="fa fa-check-square-o iconRed"></i>
                                     We Do All the Work
@@ -144,7 +144,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-6 text-right">
+                            <div class="col-md-6 text-right border-bottom">
                                 <div class="font-weight-bold">
                                     <i class="fa fa-check-square-o iconRed"></i>
                                     NO Obligations
@@ -178,21 +178,21 @@
             <h1>How This Works</h1>
             
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-6">
                     <h4>Step 1:</h4>
                     <img src="imgs/FormIcon.png" class="processIcons">
                     <h4>You fill out the form.</h4>
                     <p>Our property assessment form takes less than 10 minutes to fill out</p>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-6">
                     <h4>Step 2:</h4>
                     <img src="imgs/AnalyzeIcon.png" alt="" class="processIcons">
                     <h4>We Analyze</h4>
                     <p>We'll look at the property and research. Value will be based on county tax info, local sales data, road access, and utilities etc.</p> 
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-12">
                     <h4>Step 3:</h4>
                     <img src="imgs/OfferIcon.png" alt="" class="processIcons">
                     <h4>We Offer</h4>
@@ -201,21 +201,21 @@
             </div>
 
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-6">
                     <h4>Step 4:</h4>
                     <img src="imgs/AgreeIcon.png" alt="" class="processIcons">
                     <h4>We Agree</h4>
                     <p>Once we've agreed upon a price to purchase your property, we'll provide you with a simple purchase and sales agreement that can be completed electronically or by courier if you prefer. Most of our sellers appreciate the ease and speed we provide.</p>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-6">
                     <h4>Step 5:</h4>
                     <img src="imgs/CloseIcon.png" alt="" class="processIcons">
                     <h4>We Close</h4>
                     <p>When the agreement is signed we setup a closing date and our team of title professionals and closing attorneys prepare the closing documents.</p>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-12">
                     <h4>Step 6:</h4>
                     <img src="imgs/PaidIcon.png" alt="" class="processIcons">
                     <h4>You get Paid</h4>
@@ -257,36 +257,41 @@
     Property Assessment
     ======================
     -->
-        <div class="container text-center">
-            <h1>Property Assessment</h1>
-            <p>By completing this form, there is NO obligationfor you to sell your property to us.</p>
-        
-            <p>
-                Name<input type="text" name="Name" id="">
-            </p>
-            
-            <p>
-                County<input type="text" name="County" id="">
-                <select name="" id="">
-                    <option value="">Florida</option>
-                    <option value="">Texas</option>
-                    <option value="">Virginia</option>
-                </select>
-            </p>
-            <p>
-                Phone<input type="text" name="Phone" id="">
-            </p>
-            <p>
-                Email<input type="text" name="Email" id="">
-            </p>
-            
-        
-            <div class="col text-center">
-                <a href="assessment.LandWise.html"><button type="button" class="btn btn-secondary btn-sm text-center bg-danger" >Get your cash offer</button></a>
-            </div>
+    <div class="container-fluid text-center p-4">
+        <h1>Property Assessment</h1>
+        <p>
+            By completing this form, there is NO obligationfor you to sell your property to us.
+        </p>
+        <div class="container text-center input-group">
+            <input type="text" class="form-control" placeholder="Name">
         </div>
-        <hr>
-    </main>
+        
+        <div class="input-group-append input-group">
+            <input type="text" class="form-control" placeholder="County">
+
+            <button class="btn btn-outline-secondary dropdown-toggle text-white" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">State</button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Florida</a>
+                <a class="dropdown-item" href="#">Texas</a>
+                <a class="dropdown-item" href="#">Virginia</a>
+                <div role="separator" class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Other</a>
+            </div>
+
+        </div>
+
+        <div class="container text-center input-group">
+            <input type="text" class="form-control" placeholder="Phone">
+        </div>
+        
+        <div class="container text-center input-group">
+            <input type="text" class="form-control" placeholder="Email">
+        </div>
+
+        <a href="assessment.LandWise.html"><button type="button" class="btn btn-secondary btn-sm text-center bg-danger" >Get your cash offer</button></a>
+    </div>
+</main>
+    
     <!--
     ======================
     FOOTER
