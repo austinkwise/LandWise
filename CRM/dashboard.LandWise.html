@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <h1>Hello, world!</h1>
+
+
+    <h1>Dashboard <input type="button" value="Sign Out"></h1>
+    <!--
+        KANBAN DASHBOARD
+        CRM with 5 card holder panes
+        Campaigns/Leads/Acquisitions/Dispositions/Deals Won
+
+        Campaign Column
+            Add a campaign
+                goes to the add new campaign page
+            Campaign Tile
+                goes to the view campaign page
+                Tile Info  
+                    Name
+                    Strategy
+                    Lead Count
+                    Leads Returned
+                    active/inactive
+        Lead Column
+            Add a Lead
+                goes to add new lead page
+            Lead Tile
+                goes to view lead page
+                Tile Info
+                    Contact:
+                    Number:
+                    Email:
+                    Next Task
+        Acquisition Column
+            Acquisition Tile
+                goes to view acquisition page
+                Name
+                Phase: Analysis, Negotiations, Under Contract, Acquired
+                Next Task
+        Disposition Column
+            Disposition Tile
+                goes to view disposition page
+                Property:
+                Phase
+                Next Taks
+        Deal Done Column
+            Deal Done Tile
+                goes to view deal page
+                Deal stats
+        -->
+
+
+    
+    <!--
+    ======================
+    Campaigns Clickables
+    ======================
+    3 things you can do with campaigns
+        1. Add new Campaign
+            What does this page ask you?
+                Campaign Details
+                    Name
+                    Strategy
+                    Description
+                    Reference code
+                Budget
+                    Ask for items and what they cost 
+                    + Campaign budget item
+        2. View current campaign
+            What does this page show?
+                Top right corner 
+                    Option to edit change from written in text to text field with text
+                    Exit Button
+                Campaign Details
+                    Name
+                    Strategy
+                    Status
+                    Description
+                Activity Feed
+                    Start Date
+                    Lead Acquired
+                    Lead closed
+                    Events
+                    Notes added
+                    End Date
+                Budget
+                    Ask for items and what they cost 
+                    + Campaign budget item
+                Tasks
+                    Based on strategy selection (Mailing, FB, Google, Youtube, Ad on other Website)
+                    Get addresses
+                    Clean list
+                    Send out mailing
+                    Start online ppc
+                    + Task Item
+                Statistics
+                    Campaign Name - Strategy
+                    Cost per lead
+                    Cost of campaign
+                    Profit from campaign
+                    Revenue gained from campaign
+                    Leads Acquired Count
+                    Mailing retured count
+                    Parcels of Land sold
+                    Amount of Mailing sent
+                    Leads / Mailing %
+                    Parcels Sold / Sailing %
+    -->
+
+
+
+
+
+    <!--
+    ======================
+    Leads
+    ======================
+    2 things you can do with Leads
+        1. Add a new lead
+            If someone calls in, this is the onlytime we'll add a new lead from here.
+            Just go through the Property assessment online
+        2. View a lead
+            What does this page look like?
+                Contact Information
+                    Name
+                    Phone
+                    Email
+                    Method of Comm
+                    Lead source (How did you hear about us)
+                    Campaign Reference:
+                Owner Information
+                    Is the contact the owner of property?
+                    Owner Mailing Address, City, State and Zip
+                Property Information
+                    Assessor's Parcel Number
+                    Legal Description
+                    Property Address, City, State, and Zip
+                    Size of the Property
+                    Road Access
+                    Utilities
+                    How long have you owned this property?
+                    Listed with a realtor:
+                The numbers
+                    Contact Estimated Land Value
+                    Contact Best asking price
+                    Taxes paid yearly, quarterly, monthly
+                    Tax amount annually:
+                    HOA's paid yearly, quarterly, monthly 
+                    HOA amount annually:
+                    Tax Lien
+                    Mortgage or other Liens
+                Ready for analysis?
+                    Moves the lead to Acquisition Phase
+    -->
+
+
+
+
+
+
+    <!--
+    ======================
+    Acquisition Page
+    ======================
+    1 things you can do with acquisitions
+        1. View an acquisition
+            What do you see on this page?
+                Property Info
+                    Contact
+                    Road Access
+                    Size
+                    Shape
+                    Status (Analysis, Negotiations, Under Contract)
+
+                View Analysis
+                    Analysis Page
+                        Parcel Size:
+
+                        Seller best asking price
+
+                        Assessed Value
+                        Ballpark Market Value
+                        Paste url for sources
+
+                        --Estimated Market Value
+                
+                        Tax Amount Due
+                        HOA's Due
+                        Other Liens
+                        Closing Costs (title insurance, closing fees)
+                        Agent commission ()
+                        Other Costs
+                        ___________
+                        --Total Overhead and Closing Costs
+
+                        --EMV - TCC = Actual reedeemable value
+
+                    KPI's
+                        Select One Min/Med/Max Cash Offer Amount (10%/20%/30% of gross profit)
+                        Net Profit
+                        Investment Cost
+                    Send to Offer
+                Negotiations
+                    Offers/CounterOffers
+                        Type of deal
+                            Cash
+                                Offer Price
+                                Earnest Money
+                                Closing Date
+                            Lease Option
+                                Option Price
+                                Option Period
+                                Expiration Date
+                            Seller Finance (Hold off on this one)
+                                Offer Price
+                                Earnest Money
+                                Interest Rate
+                                Length
+                                Closing Date
+                        Copy/link of contract
+                        Deal Accepted/Rejected
+                Under Contract 
+                    Due diligence
+                        Chain of Title
+                        Zoning/Usage restrictions
+                        Any Buildings (or junk) on Property?
+                        How do adjoining Nearby Properties Look?
+                        Topography
+                        Tax Obligation
+                        Flood Zone
+                        Percolate/Sewer System
+                        Wetlands
+                        Utilities
+                    Closing Process
+                Deal Won/Deal Lost
+    -->
+
+    
+
+
+
+    <!--
+    ======================
+    Dispositions
+    ======================
+    1 thing you can do with dispositions
+        1. View of a disposition
+            What do you see on this page?
+                Property Info
+                    County
+                    State
+                    Posted to Craigslist
+                    Posted to Zillow
+                    Posted to FB
+                    Link to photos and documents
+                    Property Description (highlight area, utilities, topography, etc.)
+                    Cash Offer
+                    Seller Financing Offer
+                Activity Feed
+                    Date acquired 
+                    Date put on market
+                    Marketing posts
+                    Price Lowered
+                    Event
+                    Notes
+                    Pictures
+                    Date sold
+                Negotiations
+                    Leads
+                    Offers/CounterOffers
+                        Type of deal
+                            Cash
+                                Offer Price
+                                Earnest Money
+                                Closing Date
+                            Lease Option
+                                Option Price
+                                Option Period
+                                Expiration Date
+                            Seller Finance
+                                Offer Price
+                                Earnest Money
+                                Interest Rate
+                                Length
+                                Closing Date
+                        Copy/link of contract
+                        Deal Accepted/Rejected
+                Under Contract
+                    Name
+                    Earnest Money
+                    Get paperwork together
+                    get papers signed
+                    Closing Process
+                Deal Closed
+    -->
+
+
+
+
+
+    <!--
+    ======================
+    Deals Done
+    ======================
+    1 things you can do with done deal
+        1. View a done deal
+            What do you see on this page?
+                Final Stats
+                    Days on market
+
+                Link to other sheets
+    -->
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
