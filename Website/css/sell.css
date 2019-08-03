@@ -15,7 +15,7 @@ li {
     border: none;
 }
 .iconRed{
-    color: red;
+    color: #e74c3c;
     font-weight: bold;
     font-size: 1.5rem;
 }
@@ -25,4 +25,8 @@ li {
 
 .processIcons {
     width: 10rem;
+}
+
+.inputForm {
+   width: 
 }
