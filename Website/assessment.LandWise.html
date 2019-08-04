@@ -14,40 +14,64 @@
     <div class="firstContainer container p-4 text-center">
         <h1>Property Assessment</h1>
         <hr>
-        <div class="container">
-            <!--
+               <!--
     ======================
     Contact Information
     ======================
     -->
             <h2>Contact Information</h2>
+            <div class="input-form container btn-block p-3 col-md-8">
+                <div class="container text-center input-group p-2">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1">Name</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="John Smith">
+                </div>
 
-            <p>
-                Name: <input type="text" name="Name" id="">
-            </p>
-            <p>
-                Phone: <input type="text" name="Phone" id="">
-            </p>
-            <p>
-                Email: <input type="text" name="Email" id="">
-            </p>
-            <p>Preferred method of communication?
-                    <select name="" id="">
-                        <option value="">Phone</option>
-                        <option value="">Email</option>
-                        <option value="">Snail Mail</option>
-                    </select>
-                    </p>
+                <div class="container text-center input-group p-2">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1">Phone</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="777-123-1234">
+                </div>
                 
-                    <p>How did you hear about us?
-                    <select name="" id="">
-                        <option value="">Google</option>
-                        <option value="">Facebook</option>
-                        <option value="">Youtube</option>
-                        <option value="">Letter</option>
-                        <option value="">Other</option>
-                    </select>
-                    </p>
+                <div class="container text-center input-group p-2">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1">Email</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="John.Smith@email.com">
+                </div>
+
+                <div class="mt-3">
+                    <span>Preferred method of communication?</span>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <label class="input-group-text" for="inputGroupSelect01">Options</label>
+                        </div>
+                        <select class="custom-select" id="inputGroupSelect01">
+                            <option selected>Choose one...</option>
+                            <option value="1">Phone</option>
+                            <option value="2">Email</option>
+                            <option value="3">Postal Service</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="mt-3">
+                    <span>How did you hear about us?</span>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <label class="input-group-text" for="inputGroupSelect01">Options</label>
+                        </div>
+                        <select class="custom-select" id="inputGroupSelect01">
+                            <option selected>Choose one...</option>
+                            <option value="1">Letter</option>
+                            <option value="2">Referral</option>
+                            <option value="3">Google</option>
+                            <option value="4">Facebook</option>
+                            <option value="5">Other</option>
+                        </select>
+                    </div>
                     <!--
                     If Letter, ask for reference Code
                         <p>
@@ -58,9 +82,13 @@
                         <textarea rows="4" cols="20"></textarea>
                 
                     -->
-        </div>
-        
-        
+                </div>
+
+                
+
+
+
+            </div>  
 <!--
     ======================
     Owner Information
@@ -183,8 +211,6 @@
                 Total Owed: $<input type="text">.00
             </p>
         -->
-    
-        
     
         <p>
             Is this property listed with a realtor?
